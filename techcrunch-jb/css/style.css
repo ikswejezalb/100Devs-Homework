@@ -1,0 +1,60 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+section{
+  float: left;
+}
+ul li{
+  list-style-type: none;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.navlist{
+  width: 15%;
+
+}
+
+.mainnews{
+  width: 50%
+}
+
+.mainnews > img{
+  width: 45%;
+  height: 20%;
+}
+
+.sidestories{
+  width: 25%;
+}
+
+.thelatest{
+  width: 80%;
+  margin-left: 15%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
